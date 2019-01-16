@@ -1,0 +1,172 @@
+\documentclass[]{article}
+\renewcommand\thesection{\Alph{section}}
+
+\title{\vspace{-3.0cm}Durham University\\
+    MATH1541 Statistics \\
+	Exercise Sheet 10}
+\author{Kamil Hepak\\
+        Tutorial Group 4}
+\date{Jan 2019}
+
+\begin{document}
+\maketitle
+
+\section{Why random experiment order?}
+The experiments are likely carried out in a random order to maximise the chances of creating homogeneous sample groups, and to minimise the chances of multiple consecutive tests on the same kind of material/at the same kind of temperature affecting each other. For example, one could overheat a certain battery plate of one material by doing all of its experiments consecutively, thus skewing the results.
+
+\section{Decompose data into tables}
+For these data $p,q = 3$ and $m = 4$. To calculate group mean, we apply the equation $\bar{y}_{ij} = \frac{1}{m}\sum_{k=1}^{m}y_{ijk}$, where $i$ and $j$ are the levels of the factors, from 1 to $p$ and 1 to $q$ respectively, and $k$ is the number of the observation within each group, from 1 to $m$. For residuals, we apply $e_{ijk} = y_{ijk} - \bar{y}_{ij}.$\\
+\\
+Group mean:
+\begin{displaymath}
+    \begin{tabular}{c|c|c|c}
+        &&Temperature ($^\circ$F)&\\
+        Material&Low&Medium&High\\
+        \hline\\
+        [\dimexpr-\normalbaselineskip+4pt]
+        1&134.75&57.25&57.5\\
+        2&155.75&119.75&49.5\\
+        3&144&145.75&85.5
+    \end{tabular}
+\end{displaymath}
+\\
+Residual:
+\begin{displaymath}
+    \begin{tabular}{c|c|c|c}
+        &&Temperature ($^\circ$F)&\\
+        Material&Low&Medium&High\\
+        \hline\\
+        [\dimexpr-\normalbaselineskip+4pt]
+        1&-4.75, 20.25&-23.25, -17.25&-37.5, 12.5\\
+        &-60.75, 45.25&22.75, 17.75&24.5, 0.5\\
+        \hline\\
+        [\dimexpr-\normalbaselineskip+4pt]
+        2&-5.75, 32.25&16.25, 2.25&-24.5, 20.5\\
+        &3.25, -29.75&-13.75, -4.75&8.5, -4.5\\
+        \hline\\
+        [\dimexpr-\normalbaselineskip+4pt]
+        3&-6, -34&28.25, -25.75&10.5, 18.5\\
+        &24, 16&4.25, -6.75&-3.5, -25.5
+    \end{tabular}
+\end{displaymath}
+
+\section{Which material seems best?}
+The stated goal of the investigation is to produce a battery whose life is relatively stable across different temperature scenarios.
+
+Considering just the group means, Material 2 fails at this, with quite variable battery lifetimes under different conditions. Materials 1 and 3 succeed at creating battery life stability for two out of three temperature situations - Material 1 remains stable in medium and high temperatures, while Material 3 remains stable in low and medium temperatures. Material 3's battery lives in all three scenarios are superior to Material 1's, as well as the differential between the two similar and one different battery lives being slightly less pronounced when Material 3 is employed. 
+
+Additionally, the average magnitudes of Material 1's residuals are greater than those of Material 3 in each temperature situation, further reinforcing the relatively greater stability of Material 3. Material 2's average residual magnitudes are the smallest of all 3 materials, but the mean battery life is far less stable than in Materials 1 and 3, thus Material 2 remains unsuitable.  
+
+Overall, this would suggest Material 3 is the best choice.
+
+\section{Mean polish}
+We begin by calculating the mean values of our columns:
+\begin{displaymath}
+    \begin{tabular}{c|c|c|c}
+        &&Temperature ($^\circ$F)&\\
+        Material&Low&Medium&High\\
+        \hline\\
+        [\dimexpr-\normalbaselineskip+4pt]
+        1&134.75&57.25&57.5\\
+        2&155.75&119.75&49.5\\
+        3&144&145.75&85.5\\
+        \hline\\
+        [\dimexpr-\normalbaselineskip+4pt]
+        Column mean&144.833&107.583&64.167
+    \end{tabular}
+\end{displaymath}
+\\
+Subtracting these means from the values in their columns, we obtain:
+\begin{displaymath}
+    \begin{tabular}{c|c|c|c}
+        &&Temperature ($^\circ$F)&\\
+        Material&Low&Medium&High\\
+        \hline\\
+        [\dimexpr-\normalbaselineskip+4pt]
+        1&-10.083&-50.333&-6.667\\
+        2&10.917&12.167&-14.667\\
+        3&-0.833&38.167&21.333\\
+        \hline\\
+        [\dimexpr-\normalbaselineskip+4pt]
+        Column mean&144.833&107.583&64.167
+    \end{tabular}
+\end{displaymath}
+\\
+Next, we calculate the means of the rows in the new table:
+\begin{displaymath}
+    \begin{tabular}{c|c|c|c|c}
+        &&Temperature ($^\circ$F)&\\
+        Material&Low&Medium&High&Row mean\\
+        \hline\\
+        [\dimexpr-\normalbaselineskip+4pt]
+        1&-10.083&-50.333&-6.667&-22.361\\
+        2&10.917&12.167&-14.667&2.806\\
+        3&-0.833&38.167&21.333&19.556\\
+        \hline\\
+        [\dimexpr-\normalbaselineskip+4pt]
+        Column mean&144.833&107.583&64.167&105.528
+    \end{tabular}
+\end{displaymath}
+\\
+Performing the same kind of subtraction on the rows we obtain the final table:
+\begin{displaymath}
+    \begin{tabular}{c|c|c|c|c}
+        &&Temperature ($^\circ$F)&\\
+        Material&Low&Medium&High&\\
+        \hline\\
+        [\dimexpr-\normalbaselineskip+4pt]
+        1&12.278&-27.972&15.694&-22.361\\
+        2&8.111&9.361&-17.473&2.806\\
+        3&-20.389&18.611&1.777&19.556\\
+        \hline\\
+        [\dimexpr-\normalbaselineskip+4pt]
+        &39.305&2.055&-41.361&105.528
+    \end{tabular}
+\end{displaymath}
+\\
+The number in the bottom-right, 105.528, is the overall mean of all datapoints, $\bar{y}$. The three numbers above the overall mean, -22.361, 2.806 and 19.556, are the row, or Material, effects $r_i$. The three numbers to the left of the overall mean, 39.305, 2.055 and -41.361, are the column, or Temperature, effects $c_j$. The remaining nine numbers are the interactions between different levels of the two factors, Material and Temperature, $w_{ij}$.
+
+We know that any observation $y_{ijk}$ can be decomposed into $\bar{y}_{ij} + e_{ijk}$. Now, reversing our mean polish subtraction process, we also know that any group mean $\bar{y}_{ij}$ can be decomposed into $\bar{y} + r_i + c_j + w_{ij}$. Substituting this new knowledge into the datapoint decomposition, we can define any observation $y_{ijk}$ as the decomposition $\bar{y} + r_i + c_j + w_{ij} + e_{ijk}$. 
+
+For example, observation $y_{123}$ = 80 $\equiv 105.528 + r_1 + c_2 + w_{12} + e_{123} \equiv 105.528 + (-22.361) + (2.055) + (-27.972) + (22.75)$.
+
+\section{Effects and residuals plot}
+Attached
+
+\section{ANOVA table}
+
+Total Sum of Squares = Factor One (Material) Sum of Squares + Factor Two (Temperature) Sum of Squares + Interaction Sum of Squares + Residual Sum of Squares\\
+\\
+Factor One (Material) Sum of Squares: $3\cdot 4\cdot \sum_{i=1}^{3} r_i^2 = 12((-22.361)^2 + 2.806^2 + 19.556^2) = 10,683.901$\\
+\\
+Factor Two (Temperature) Sum of Squares: $3\cdot 4\cdot \sum_{j=1}^{3} c_j^2 = 12(39.305^2 + 2.055^2 + (-41.361)^2) = 39,118.060$\\
+\\
+Interaction Sum of Squares: $m\cdot \sum_{i=1}^{3} \sum_{j=1}^{3} w_{ij}^2 = 4(12.278^2 + (-27.972)^2 + 15.694^2 + 8.111^2 + 9.361^2 + (-17.473)^2 + (-20.389)^2 + 18.611^2 + 1.777^2) = 9613.778$\\
+\\
+Residual Sum of Squares: $\sum_{i=1}^{3} \sum_{j=1}^{3} \sum_{k=1}^{4} e_{ijk} = ((-4.75)^2 + 20.25^2 + (-60.75)^2 + 45.25^2 + (-23.25)^2 + (-17.25)^2 + 22.75^2 + 17.75^2 + (-37.50)^2 + 12.50^2 + 24.50^2 + 0.50^2 + (-5.75)^2 + 32.25^2 + 3.25^2 + (-29.75)^2 + 16.25^2 + 2.25^2 + (-13.75)^2 + (-4.75)^2 + (-24.50)^2 + 20.50^2 + 8.50^2 + (-4.50)^2 + (-6.00)^2 + (-34.00)^2 + 24.00^2 + 16.00^2 + 28.25^2 + (-25.75)^2 + 4.25^2 + (-6.75)^2 + 10.50^2 + 18.50^2 + (-3.50)^2 + (-25.50)^2) = 18,230.75$
+\begin{displaymath}
+        \begin{tabular}{c|cc}
+        &Sum of Squares&Proportion\\
+        \hline
+        \\[\dimexpr-\normalbaselineskip+4pt]
+        Material&10,683.901&13.76\%\\
+        Temperature&39,118.060&50.38\%\\
+        Interaction&9613.778&12.38\%\\
+        Residual&18,230.75&23.48\%\\
+        \hline
+        \\[\dimexpr-\normalbaselineskip+4pt]
+        Total&77,646.489&100\%
+    \end{tabular}
+\end{displaymath}
+
+\section{Residual homogeneity test}
+Assessment of homogeneity plot attached
+
+\section{Interpret results}
+As we can see from the assessment of homogeneity plot, there appears to be considerable similarity and overlap between most of the factor pairs. Not only are most of the log-transformed standard deviations very similar, the size of the order of accuracy ($\pm\frac{1}{\sqrt{3}}$) also provides a lenient range in which a common standard deviation could lie.
+
+The notable outliers are Material 1 Low Temperature and Material 2 Medium Temperature. In those cases, their accuracy whiskers overlap with about half of the rest of the data - however, a common standard deviation may fall below the former's range, or above the latter's range, implying that homogeneity could be limited to only 7 or 8 of the 9 total factor pair groups. Overall, however, the plot suggests a fairly homogeneous distribution - it is probably not inaccurate to talk about, for example, the residual distribution of all the factor pairs as one population. This is useful for examining the residual effect on deviation from a standard response compared to other factors.
+
+The analysis of variance table corroborates what can be seen on the effects and residuals plot - the the Material and Interaction effects contribute roughly the same, small, amount to the total deviation; that the Residual effect is slightly more powerful than the former two effects; and that Temperature effect dominates all other effects.
+
+\end{document}
