@@ -1,0 +1,64 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6880 64-bit) (preloaded format=pdflatex 2018.12.7)  11 FEB 2019 10:53
+entering extended mode
+**c:/Users/Kamil/Desktop/statsex12/statsex12.tex
+(c:/Users/Kamil/Desktop/statsex12/statsex12.tex
+LaTeX2e <2018-04-01> patch level 5
+("C:\1 Things\Software & Programs\MiKTeX\tex\latex\base\article.cls"
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+("C:\1 Things\Software & Programs\MiKTeX\tex\latex\base\size10.clo"
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+) (c:/Users\Kamil\Desktop\statsex12\statsex12.aux)
+\openout1 = `statsex12.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 11.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 11.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 11.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 15.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 15.
+ [1
+
+{C:/Users/Kamil/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2] (c:/Users\Kamil\Desktop\statsex12\statsex12.aux) ) 
+Here is how much of TeX's memory you used:
+ 232 strings out of 492969
+ 2802 string characters out of 3130996
+ 60742 words of memory out of 3000000
+ 4181 multiletter control sequences out of 15000+200000
+ 7587 words of font info for 27 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 23i,6n,18p,328b,199s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/1 Things/Software & Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/1 Things/Software & Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/1 Things/Software & Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/1 Things/Software & Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/1 Things/Software & Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/1 Things/Software & Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/1 Things/Software & Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/1 Things/Software & Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/1 Things/Software & Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on c:/Users\Kamil\Desktop\statsex12\statsex12.pdf (2 pages, 99866 bytes).
+PDF statistics:
+ 45 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+
