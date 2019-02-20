@@ -1,0 +1,103 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6880 64-bit) (preloaded format=pdflatex 2018.12.7)  20 FEB 2019 20:57
+entering extended mode
+**"c:/Users/Kamil/Desktop/CompSciNotes/Year 1/Stats/StatsEx13/statsex13.tex"
+("c:/Users/Kamil/Desktop/CompSciNotes/Year 1/Stats/StatsEx13/statsex13.tex"
+LaTeX2e <2018-04-01> patch level 5
+("C:\1 Things\Software & Programs\MiKTeX\tex\latex\base\article.cls"
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+("C:\1 Things\Software & Programs\MiKTeX\tex\latex\base\size10.clo"
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+) ("c:/Users\Kamil\Desktop\CompSciNotes\Year 1\Stats\StatsEx13\statsex13.aux")
+\openout1 = `statsex13.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 11.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 11.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 11.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 28.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 28.
+
+Runaway argument?
+c:/Users/Kamil/Desktop/CompSciNotes/Year 1/Stats/StatsEx13/statsex13.tex:31: Paragraph ended before \@array was complete
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+c:/Users/Kamil/Desktop/CompSciNotes/Year 1/Stats/StatsEx13/statsex13.tex:31: Missing $ inserted
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+c:/Users/Kamil/Desktop/CompSciNotes/Year 1/Stats/StatsEx13/statsex13.tex:33: Misplaced \crcr
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+c:/Users/Kamil/Desktop/CompSciNotes/Year 1/Stats/StatsEx13/statsex13.tex:33: Extra }, or forgotten \endgroup
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+c:/Users/Kamil/Desktop/CompSciNotes/Year 1/Stats/StatsEx13/statsex13.tex:33: Extra }, or forgotten $
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+c:/Users/Kamil/Desktop/CompSciNotes/Year 1/Stats/StatsEx13/statsex13.tex:33: Missing $ inserted
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+[1
+
+{C:/Users/Kamil/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2] ("c:/Users\Kamil\Desktop\CompSciNotes\Year 1\Stats\StatsEx13\statsex13.aux") ) 
+Here is how much of TeX's memory you used:
+ 232 strings out of 492969
+ 3054 string characters out of 3130996
+ 61742 words of memory out of 3000000
+ 4180 multiletter control sequences out of 15000+200000
+ 7290 words of font info for 26 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 23i,6n,17p,336b,199s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/1 Things/Software & Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/1 Things/Software & Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/1 Things/Software & Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/1 Things/Software & Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/1 Things/Software & Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/1 Things/Software & Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on "c:/Users\Kamil\Desktop\CompSciNotes\Year 1\Stats\StatsEx13\statsex13.pdf" (2 pages, 74926 bytes).
+PDF statistics:
+ 33 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+
