@@ -1,6 +1,6 @@
 \documentclass[]{article}
 
-\title{\vspace{-3.0cm}Durham University\\
+\title{\vspace{-5cm}Durham University\\
     MATH1541 Statistics \\
 	Exercise Sheet 13}
 \author{Kamil Hepak\\
@@ -16,12 +16,20 @@ The probability of a student passing the exam is not constant, as a student's un
 \subsubsection{b)}
 Again the probability of getting a correct answer is not constant or independent (later questions are dependent on good understanding of earlier material), thus a binomial distribution will not give a good answer.
 \subsection{c)}
-The differing temperatures likely affect the probability of material failure, and the fact the same material is being used for this test means the experiment is independent - once again, a binomial distribution will not be conducive to correct calculations.
+The differing temperatures likely affect the probability of material failure, and the fact the same material is being used for this test means the experiment is not independent - once again, a binomial distribution will not be conducive to correct calculations.
 
 \subsection{Q4}
 \subsubsection{a)}
+P = the amount of ways to ignore two jean-wearers over the amount of ways to choose a sample of seven workers.
+\\
+P = $\frac{{5\choose 2}}{{9\choose 7}} = \frac{5}{18}$ = 0.2778
 \subsubsection{b)}
+$X \sim \textrm{B}(7,\frac{4}{9})$
+\\
+P($X=4$) = 0.2342
 \subsubsection{c)}
+In this population, selecting a sample where more than 4 people wear suits is impossible - however, the Binomial approximation ignores this, and has non-zero probability values for $X>4$.
+
 
 \subsection{Q5}
 \subsubsection{a)}
@@ -50,9 +58,9 @@ $Y \sim \textrm{B}(900,0.4)$
 \\
 $Z \sim \textrm{N}(360,(6\sqrt{6}^2))$
 \\
-P($333 \leq Y \leq 378$) $\approx$ P($332.5 \leq Z \leq 378.5$)
+P($333 \leq Y \leq 378$) $\approx$ P($333 \leq Z \leq 378$)
 \\
-P = 0.8653
+P = 0.8566
 \subsubsection{f)}
 $P = \frac{Y}{900}$
 \\
@@ -64,7 +72,7 @@ MoE = $2\sqrt{\frac{p(1-p)}{n}} = 0.01$
 \\
 $n = \frac{0.4\times0.6}{0.02^2} = 600$
 \subsubsection{h)}
-The margin of error is dependent on both $n$ and $p$, and therefore quoting a margin of error on a value of $p$ that is different from the true value means that your quoted margin of error does not correspond to the actual population, and is not useful in calculations.
+The margin of error is dependent on both $n$ and $p$, and therefore quoting a margin of error based on a value of $p$ that is different from the true value means that your quoted margin of error does not correspond to the actual population, and is not useful in calculations.
 
 
 \end{document}
