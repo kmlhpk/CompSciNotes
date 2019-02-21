@@ -27,17 +27,40 @@ The differing temperatures likely affect the probability of material failure, an
 \subsubsection{a)}
 If we assume the probability, 0.4, of a person being a Conservative voter, and that each person's probability of voting that way is independent, then we also have a binary choice (Tory voter, or not), thus allowing us to model $Y$ as binomial.
 \subsubsection{b)}
-\begin{tabular}
-    
-    
+\begin{tabular}{c|c|c|c|c|c|c|c}
+    $y$&0&1&2&3&4&5&6\\
+    \hline
+    \\[\dimexpr-\normalbaselineskip+4pt]
+    P($Y=y$)&0.04666&0.1866&0.3110&0.2765&0.1382&0.03686&4.096$\times10^{-3}$
 \end{tabular}
-
 \subsubsection{c)}
+E($Y$) = $\sum_{i=0}^{6} y \cdot \textrm{P}(Y=y)$
+\\
+E($Y$) = 2.3998 
+\\
+Var($Y$) = $\left(\sum_{i=0}^{6} y^2 \cdot \textrm{P}(Y=y)\right) - \textrm{E}(Y)^2$
+\\
+Var($Y$) = 7.1993 - 2.3998$^2$ = 1.4402
 \subsubsection{d)}
+$np$ = 2.4
+\\
+$np(1-p)$ = 1.44
 \subsubsection{e)}
+$Y \sim \textrm{B}(900,0.4)$
+\\
+$Z \sim \textrm{N}(360,(6\sqrt{6}^2))$
+\\
+P($333 \leq Y \leq 378$) $\approx$ P($332.5 \leq Z \leq 378.5$)
+\\
+P = 0.8653
 \subsubsection{f)}
+$P = \frac{Y}{900}$
+\\
+Assume $P \sim \textrm{N}(0.4, 2.67\times 10^{-4})$
+\\
 \subsubsection{g)}
 \subsubsection{h)}
+
 
 
 \end{document}
