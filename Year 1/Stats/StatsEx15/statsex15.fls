@@ -1,51 +1,53 @@
-PWD c:/1 Things/Uni Work/CompSciNotes/Year 1/Stats/StatsEx15
-INPUT C:/Users/Kamil/AppData/Local/MiKTeX/2.9/miktex/data/le/pdftex/pdflatex.fmt
-INPUT c:/1 Things/Uni Work/CompSciNotes/Year 1/Stats/StatsEx15/statsex15.tex
-OUTPUT c:/1 Things/Uni Work/CompSciNotes/Year 1/Stats/StatsEx15/statsex15.log
-INPUT C:/1 Things/Software & Programs/MiKTeX/tex/latex/base/article.cls
-INPUT C:/1 Things/Software & Programs/MiKTeX/tex/latex/base/article.cls
-INPUT C:/1 Things/Software & Programs/MiKTeX/tex/latex/base/size10.clo
-INPUT C:/1 Things/Software & Programs/MiKTeX/tex/latex/base/size10.clo
-INPUT c:/1 Things/Uni Work/CompSciNotes/Year 1/Stats/StatsEx15/statsex15.aux
-INPUT c:/1 Things/Uni Work/CompSciNotes/Year 1/Stats/StatsEx15/statsex15.aux
-OUTPUT c:/1 Things/Uni Work/CompSciNotes/Year 1/Stats/StatsEx15/statsex15.aux
-INPUT C:/1 Things/Software & Programs/MiKTeX/fonts/tfm/public/cm/cmr17.tfm
-INPUT C:/1 Things/Software & Programs/MiKTeX/fonts/tfm/public/cm/cmr12.tfm
-INPUT C:/1 Things/Software & Programs/MiKTeX/fonts/tfm/public/cm/cmr8.tfm
-INPUT C:/1 Things/Software & Programs/MiKTeX/fonts/tfm/public/cm/cmr6.tfm
-INPUT C:/1 Things/Software & Programs/MiKTeX/fonts/tfm/public/cm/cmmi12.tfm
-INPUT C:/1 Things/Software & Programs/MiKTeX/fonts/tfm/public/cm/cmmi8.tfm
-INPUT C:/1 Things/Software & Programs/MiKTeX/fonts/tfm/public/cm/cmmi6.tfm
-INPUT C:/1 Things/Software & Programs/MiKTeX/fonts/tfm/public/cm/cmsy10.tfm
-INPUT C:/1 Things/Software & Programs/MiKTeX/fonts/tfm/public/cm/cmsy8.tfm
-INPUT C:/1 Things/Software & Programs/MiKTeX/fonts/tfm/public/cm/cmsy6.tfm
-INPUT C:/1 Things/Software & Programs/MiKTeX/fonts/tfm/public/cm/cmr12.tfm
-INPUT C:/1 Things/Software & Programs/MiKTeX/fonts/tfm/public/cm/cmbx12.tfm
-INPUT C:/1 Things/Software & Programs/MiKTeX/fonts/tfm/public/cm/cmbx12.tfm
-OUTPUT c:/1 Things/Uni Work/CompSciNotes/Year 1/Stats/StatsEx15/statsex15.pdf
-INPUT C:/Users/Kamil/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map
-INPUT c:/1 Things/Uni Work/CompSciNotes/Year 1/Stats/StatsEx15/statsex15.aux
-INPUT C:/1 Things/Software & Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb
-INPUT C:/1 Things/Software & Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb
-INPUT C:/1 Things/Software & Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb
-INPUT C:/1 Things/Software & Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb
-INPUT C:/1 Things/Software & Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb
-INPUT C:/1 Things/Software & Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb
-INPUT C:/1 Things/Software & Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb
-INPUT C:/1 Things/Software & Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb
-INPUT C:/1 Things/Software & Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb
-INPUT C:/1 Things/Software & Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb
-INPUT C:/1 Things/Software & Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb
-INPUT C:/1 Things/Software & Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb
-INPUT C:/1 Things/Software & Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb
-INPUT C:/1 Things/Software & Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb
-INPUT C:/1 Things/Software & Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb
-INPUT C:/1 Things/Software & Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb
-INPUT C:/1 Things/Software & Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb
-INPUT C:/1 Things/Software & Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb
-INPUT C:/1 Things/Software & Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb
-INPUT C:/1 Things/Software & Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb
-INPUT C:/1 Things/Software & Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb
-INPUT C:/1 Things/Software & Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb
-INPUT C:/1 Things/Software & Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb
-INPUT C:/1 Things/Software & Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb
+PWD c:\Users\Kamil\Desktop\CompSciNotes\Year 1\Stats\StatsEx15
+INPUT C:\Users\Kamil\AppData\Local\MiKTeX\2.9\miktex\data\le\pdftex\pdflatex.fmt
+INPUT c:\Users\Kamil\Desktop\CompSciNotes\Year 1\Stats\StatsEx15\statsex15.tex
+OUTPUT c:\Users\Kamil\Desktop\CompSciNotes\Year 1\Stats\StatsEx15\statsex15.log
+INPUT C:\1 Things\Software & Programs\MiKTeX\tex\latex\base\article.cls
+INPUT C:\1 Things\Software & Programs\MiKTeX\tex\latex\base\article.cls
+INPUT C:\1 Things\Software & Programs\MiKTeX\tex\latex\base\size10.clo
+INPUT C:\1 Things\Software & Programs\MiKTeX\tex\latex\base\size10.clo
+INPUT c:\Users\Kamil\Desktop\CompSciNotes\Year 1\Stats\StatsEx15\statsex15.aux
+INPUT c:\Users\Kamil\Desktop\CompSciNotes\Year 1\Stats\StatsEx15\statsex15.aux
+OUTPUT c:\Users\Kamil\Desktop\CompSciNotes\Year 1\Stats\StatsEx15\statsex15.aux
+INPUT C:\1 Things\Software & Programs\MiKTeX\fonts\tfm\public\cm\cmr17.tfm
+INPUT C:\1 Things\Software & Programs\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
+INPUT C:\1 Things\Software & Programs\MiKTeX\fonts\tfm\public\cm\cmr8.tfm
+INPUT C:\1 Things\Software & Programs\MiKTeX\fonts\tfm\public\cm\cmr6.tfm
+INPUT C:\1 Things\Software & Programs\MiKTeX\fonts\tfm\public\cm\cmmi12.tfm
+INPUT C:\1 Things\Software & Programs\MiKTeX\fonts\tfm\public\cm\cmmi8.tfm
+INPUT C:\1 Things\Software & Programs\MiKTeX\fonts\tfm\public\cm\cmmi6.tfm
+INPUT C:\1 Things\Software & Programs\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
+INPUT C:\1 Things\Software & Programs\MiKTeX\fonts\tfm\public\cm\cmsy8.tfm
+INPUT C:\1 Things\Software & Programs\MiKTeX\fonts\tfm\public\cm\cmsy6.tfm
+INPUT C:\1 Things\Software & Programs\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
+INPUT C:\1 Things\Software & Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
+INPUT C:\1 Things\Software & Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
+OUTPUT c:\Users\Kamil\Desktop\CompSciNotes\Year 1\Stats\StatsEx15\statsex15.pdf
+INPUT C:\Users\Kamil\AppData\Local\MiKTeX\2.9\pdftex\config\pdftex.map
+INPUT c:\Users\Kamil\Desktop\CompSciNotes\Year 1\Stats\StatsEx15\statsex15.aux
+INPUT C:\1 Things\Software & Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
+INPUT C:\1 Things\Software & Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
+INPUT C:\1 Things\Software & Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmex10.pfb
+INPUT C:\1 Things\Software & Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmex10.pfb
+INPUT C:\1 Things\Software & Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi10.pfb
+INPUT C:\1 Things\Software & Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi10.pfb
+INPUT C:\1 Things\Software & Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi5.pfb
+INPUT C:\1 Things\Software & Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi5.pfb
+INPUT C:\1 Things\Software & Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi7.pfb
+INPUT C:\1 Things\Software & Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi7.pfb
+INPUT C:\1 Things\Software & Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
+INPUT C:\1 Things\Software & Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
+INPUT C:\1 Things\Software & Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
+INPUT C:\1 Things\Software & Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
+INPUT C:\1 Things\Software & Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr17.pfb
+INPUT C:\1 Things\Software & Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr17.pfb
+INPUT C:\1 Things\Software & Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr5.pfb
+INPUT C:\1 Things\Software & Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr5.pfb
+INPUT C:\1 Things\Software & Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr7.pfb
+INPUT C:\1 Things\Software & Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr7.pfb
+INPUT C:\1 Things\Software & Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
+INPUT C:\1 Things\Software & Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
+INPUT C:\1 Things\Software & Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy5.pfb
+INPUT C:\1 Things\Software & Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy5.pfb
+INPUT C:\1 Things\Software & Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy7.pfb
+INPUT C:\1 Things\Software & Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy7.pfb
