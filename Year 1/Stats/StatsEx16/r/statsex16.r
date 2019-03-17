@@ -21,6 +21,7 @@ outlier_range_c = median(cross) - 1.5*IQR(cross)
 outlier_range_c
 outlier_range_s = median(self) - 1.5*IQR(self)
 outlier_range_s
+boxplot(diffs)
 
 cross_o=c(23.5,21,22,19.125,21.5,21.125,20.375,18.250,21.625,23.25,21,22.125,23)
 self_o=c(17.375,20,20,18.375,18.625,18.625,15.25,16.5,18,16.25,18,12.75,15.5)
