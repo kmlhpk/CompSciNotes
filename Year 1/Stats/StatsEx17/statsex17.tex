@@ -1,0 +1,91 @@
+\documentclass[]{article}
+
+\title{\vspace{-3cm}Durham University\\
+    MATH1541 Statistics \\
+	Exercise Sheet 17}
+\author{Kamil Hepak\\
+        Tutorial Group 4}
+\date{Mar 2019}
+
+\begin{document}
+\maketitle
+
+\section{Q4}
+\subsection{a)}
+\subsubsection{i)}
+Let subscript 1 denote fathers of schizophrenic children, and subscript 2 denote fathers of ``normal'' children. Let $\mu_d = \mu_1 - \mu_2$.
+\\
+$H_0: \mu_d = 0$, $H_a: \mu_d \neq 0$
+\\
+$n_1 = 10, n_2 = 6$
+\\
+$t_{\textrm{min}(n_1-1, n_2-1)} = t_5$
+\\
+$t^*_{99\%} = 4.032$
+\\
+$\bar{x_1} = 35.70, \bar{x_2} = 9.67$
+\\
+$\bar{x_1} - \bar{x_2} = 26.03$
+\\
+$s^2_1 = 18.68, s^2_2 = 33.47$
+\\
+Thus, the 99\% confidence interval can be constructed with:
+$$26.03 \pm 4.032 \sqrt{\frac{18.68}{10}+\frac{33.47}{6}}$$
+\\
+Therefore:
+$$\mu_d \in [15.03,37.03]$$
+And since 0 $\notin$ the C.I., there is sufficient evidence to not accept the null hypothesis at the 99\% significance level.
+
+\subsubsection{ii)}
+Let subscript 1 denote fathers of schizophrenic children, and subscript 2 denote fathers of ``normal'' children. Let $\mu_d = \mu_1 - \mu_2$.
+\\
+$H_0: \mu_d = 0$, $H_a: \mu_d \neq 0$
+\\
+$n_1 = 10, n_2 = 6$
+\\
+$t_{n_1+n_2-2} = t_{14}$
+\\
+$t^*_{99\%} = 2.977$
+\\
+$\bar{x_1} = 35.70, \bar{x_2} = 9.67$
+\\
+$\bar{x_1} - \bar{x_2} = 26.03$
+\\
+$s^2_1 = 18.68, s^2_2 = 33.47$
+\\
+$s_p = \frac{9\cdot 18.68 + 5\cdot 33.47}{14} = 23.96$
+\\
+Thus, the 99\% confidence interval can be constructed with:
+$$26.03 \pm 2.077 \cdot 23.96 \cdot \sqrt{\frac{1}{10}+\frac{1}{6}}$$
+\\
+Therefore:
+$$\mu_d \in [0.33,52.73]$$
+And since 0 $\notin$ the C.I., there is sufficient evidence to not accept the null hypothesis at the 99\% significance level.
+
+\subsection{b)}
+Let subscript 1 denote mothers of schizophrenic children, and subscript 2 denote mothers of ``normal'' children. Let $\mu_d = \mu_1 - \mu_2$.
+\\
+$H_0: \mu_d = 0$, $H_a: \mu_d \neq 0$
+\\
+Assuming the variances are not equal and noting that they are not known:
+\\
+$n_1 = 10, n_2 = 6$
+\\
+$t_{\textrm{min}(n_1-1, n_2-1)} = t_5$
+\\
+$t^*_{99\%} = 4.032$
+\\
+$\bar{x_1} = 30.2, \bar{x_2} = 17.0$
+\\
+$\bar{x_1} - \bar{x_2} = 13.2$
+\\
+$s^2_1 = 34.4, s^2_2 = 38.8$
+\\
+Thus, the 99\% confidence interval can be constructed with:
+$$13.2 \pm 4.032 \sqrt{\frac{34.4}{10}+\frac{38.8}{6}}$$
+\\
+Therefore:
+$$\mu_d \in [0.51,25.89]$$
+And since 0 $\notin$ the C.I., there is sufficient evidence to not accept the null hypothesis at the 99\% significance level.
+
+\end{document}
