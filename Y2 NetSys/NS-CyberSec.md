@@ -9,7 +9,7 @@ In CyberSec, we aim to **allow intended use** and **prevent unintended use**. We
 ## Basic Terminology
 
 Word            | Meaning
--               |-
+--              |--
 Asset           | Something of **value** to a person or organisation.
 Vulnerability   | **Weakness** of a system that could be accidentally or intentionally **exploited** to damage assets.
 Threat          | **Potential danger** of an adversary exploiting a vulnerability.
