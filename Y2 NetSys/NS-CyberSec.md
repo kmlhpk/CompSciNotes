@@ -1,4 +1,4 @@
-# COMP2211 - Networks and Systems - Cyber Security
+# COMP2211 Networks and Systems - Cyber Security
 
 ## Lecture 1 - Intro
 
