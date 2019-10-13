@@ -18,4 +18,13 @@ Two states have a transition between them, which may be directed (ie. ordered pa
 
 There may be multiple actions you can take to transition from one state to another - these actions may have different step-costs to them, but they represent the same transition.
 
+### Global Search
+
+Global search finds a path from an initial state to a goal state via state transitions. In global search, we tend to minimise or maximise step cost, as required by our problem. The solution to a global search, therefore, is a path between states.
+
+### Local Search
+
+In local search, we do away with the notion of actions that initiate transitions, and we no longer have step costs associated with transitions. Instead, each state has an objective cost associated with it. The solution to a local search problem is the state with the largest/smallest objective cost, as required, that is reachable from the initial state.
+
+### Example: 8-Puzzle Problem
 
