@@ -28,3 +28,18 @@ In local search, we do away with the notion of actions that initiate transitions
 
 ### Example: 8-Puzzle Problem
 
+## Lecture 2 - Uninformed Search
+
+### In-lecture comments
+
+If you try to expand a node and find there are no transitions/children, you can delete it from memory (it won't help you find the goal state or the path to it). Otherwise we must store all of the search tree in BFS.
+
+Function that determines whether you've hit a goal node // function that tells you which fringe node to expand requires path cost and depth information, thus they are stored in the tuple instead of being reconstructed after identifying goal node.
+
+BFS is not optimal - it could terminate at a non-optimal goal node if it's at a point in the fringe that comes "before" (in terms of where BFS decides to expand first - implementation-specific) a potentially-expandable node that would give a deeper but better-path-cost goal node (that we never find because of the way BFS works)
+
+in DFS, $d$ as in the shallowest goal node (or in fact any goal node depth), plays no complexity role. DFS often goes past the depth of the goal node when drilling down into a search-tree, therefore $d$ doesn't impact how dep DFS might go at any point.
+
+DFS does not get stuck when the state graph has no cycles - tree.
+
+DFS is complete when the tree is finite.

@@ -24,3 +24,23 @@ Accountability  | **Recording actions** so that users can be held **accountable*
 Reliability     | Ensuring that a system can **progress despite errors**.
 
 **Confidentiality, integrity and availability** often have to be balanced against one another. Too much confidentiality might harm availability and integrity, etc.
+
+## Lecture 2 - Applied Cryptography
+
+> *Cryptology is the study and practice of techniques for secure communication in the presence of adversaries. It is split into cryptography, writing codes, and cryptanalysis, deciphering codes.*
+
+### Substitution Ciphers
+
+Replace each letter in the alphabet by another letter. ROT$_{k}$ is the most basic - shifting alphabet by $k$ letters.
+
+Multiple variants - monoalphabetic = fixed sub, polyalphabetic = change sub rules in different parts of message (eg. every 4 letters), polygraphic
+
+### Approaches
+
+Symmetric and asymmetric (public) key cryptography. Symmetric = same keys, public = different keys.
+
+Public key used for encryption, private key for decryption.
+
+Key-space and cipher-space
+
+Avoid using pseudorandom numbers to generate keys.
