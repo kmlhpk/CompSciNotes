@@ -12,12 +12,8 @@ add3 x y z = x + y + z
 mult3 :: Int -> Int -> Int -> Int
 mult3 x y z = x * y * z
 
-threeto :: Int -> [Int]
-threeto n = [3..n]
-
--- this one needs "add (a,b)"
-add2 :: (Int,Int) -> Int
-add2 (x,y) = x+y
+threeTo :: Int -> [Int]
+threeTo n = [3..n]
 
 n = a `div` length xs
     where
@@ -26,14 +22,30 @@ n = a `div` length xs
 
 lastly xs = xs !! (length xs - 1)
 
--- pattern-match the empty list first, because xs already contains the empty list
+-- pattern-match the empty list first, because xs already contains the empty list (can't repeat definitions)
 shuffle :: [a] -> [a]
 shuffle [] = []
 shuffle xs = drop 1 xs ++ [head xs]
 
-
+-- quick sort?
 f [] = []
 f (x:xs) = f ys ++ [x] ++ f zs
     where
         ys = [a | a <- xs, a <= x]
         zs = [b | b <- xs, b > x]
+
+listToDec :: ([Int],Int) -> Int 
+listToDec (0,_) = 0
+listToDec (_,0) = 0
+listToDec (_,1) = 0
+listToDec ([xs],b) = listToDec ((init [xs]),b) + --element raised to power
+    where
+        orig = length [xs]
+
+decToList :: (Int, Int) -> [Int]
+decToList (0,_) = []
+decToList (_,0) = []
+decToList (_,1) = []
+decToList (x,b) = decToList ((x `div` b),b) ++ [x `mod` b]
+
+--baseConv
