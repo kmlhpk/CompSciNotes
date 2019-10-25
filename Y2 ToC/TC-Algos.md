@@ -28,3 +28,9 @@ v  4  5    5
 r  2  5/6  5/6
 
 in the fractional variant, we can merge items with equal ratios by taking the sum of their weight and value - this doesn't cause us any problems because we can take as big a fraction as we like of them, even if their singular weight exceeds the knapsack capacity.
+
+## Lecture 3 - Divide and Conquer
+
+### ILC
+
+The join, G1 x G2, of G1 and G2 is G1 + G2 but all the vertices of G1 and G2 are joined (complete!)

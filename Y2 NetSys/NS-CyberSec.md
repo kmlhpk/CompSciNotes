@@ -44,3 +44,11 @@ Public key used for encryption, private key for decryption.
 Key-space and cipher-space
 
 Avoid using pseudorandom numbers to generate keys.
+
+## Lecture 3 - OS Security and Access Control
+
+### In-lecture comments
+
+MAC and DAC are non-examinable terms
+
+

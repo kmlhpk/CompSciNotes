@@ -43,3 +43,11 @@ in DFS, $d$ as in the shallowest goal node (or in fact any goal node depth), pla
 DFS does not get stuck when the state graph has no cycles - tree.
 
 DFS is complete when the tree is finite.
+
+## Lecture 3 - Heuristic Search
+
+### ILC
+
+A* search never expands a goal node, b/c minimality is criteria for termination
+
+

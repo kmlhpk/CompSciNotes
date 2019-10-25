@@ -37,3 +37,11 @@ Some routers may not provide a response for `traceroute` but that may not be a s
 If you're being pedantic you could say hosts are any computing devices that are connected within a network, eg. the Internet, that may provide info, resources or services to other devices. End systems are services or clients that provide something of use to the end user, but with which the end user may not interact - eg. a PC, email server, web server etc.
 
 **Q2:** HFC connections share a "backbone", tus transfer rate is shared among users. When sending data downstream (to end users), it is sent from only one source, so the packets cannot collide.
+
+## Lecture 3
+
+### ILC
+
+P2P Might have a central server to deal with some requests but may rely on P2P connections for most of the connectivity - eg Skype
+
+
