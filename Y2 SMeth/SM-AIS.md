@@ -50,4 +50,23 @@ DFS is complete when the tree is finite.
 
 A* search never expands a goal node, b/c minimality is criteria for termination
 
+## Lec 4 - A* Search
+
+If there is a fixed $\epsilon > 0$ such that all step-costs exceed it, and the branhing factor is bounded by $b$, then A* search is **complete**.
+
+### Proof
+
+Suppose there is a goal-node, but A* search doesn't find it.
+
+- it terminates without finding a goal-node, or
+- it does not terminate but it found the goal-node, or
+- it does not terminate whatsoever
+
+- case 1 - the tree is finite and all nodes have ben expanded. Goal node must've been on the fringe at some point, and it would;ve had minimal $f$ value, so it would;ve had an expansion attempt - this contradicts th case
+
+
+
+
+
+### ILC
 

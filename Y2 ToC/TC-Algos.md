@@ -34,3 +34,8 @@ in the fractional variant, we can merge items with equal ratios by taking the su
 ### ILC
 
 The join, G1 x G2, of G1 and G2 is G1 + G2 but all the vertices of G1 and G2 are joined (complete!)
+
+## Lecture 4 - Matrices
+
+### ILC
+

@@ -49,3 +49,19 @@ decToList (_,1) = []
 decToList (x,b) = decToList ((x `div` b),b) ++ [x `mod` b]
 
 --baseConv
+
+
+
+
+
+
+
+
+
+{-Lecture 4
+
+
+
+
+
+-}

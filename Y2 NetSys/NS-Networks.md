@@ -45,3 +45,8 @@ If you're being pedantic you could say hosts are any computing devices that are 
 P2P Might have a central server to deal with some requests but may rely on P2P connections for most of the connectivity - eg Skype
 
 
+## Lecture 4 - Transport Layer pt. 1
+
+### ILC
+
+Multi-socket TCP gives the advantage of having easier parallel multiple connection requests - demultiplexing is easier (eg for multiple HTTP requests) when you have multiple sockets. You don't have to deal with the single stream of data, like under UDP, yourself if you use TCP. UDP is still useful for some applications - eg for streaming live data (if you drop a word in an audio livestream, you don't want it retransmitted later - it's just lost, move on) or if you don't want handshaking.

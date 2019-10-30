@@ -51,4 +51,7 @@ Avoid using pseudorandom numbers to generate keys.
 
 MAC and DAC are non-examinable terms
 
+## Lecture 4 - Identification, authentication, authorization.
+
+### ILC
 
