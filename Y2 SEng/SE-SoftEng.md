@@ -1,4 +1,6 @@
-## Requirement gathering
+# COMP2252 Software Engineering - Software Engineering
+
+## Lecture ? Requirement gathering
 
 ### ILC
 

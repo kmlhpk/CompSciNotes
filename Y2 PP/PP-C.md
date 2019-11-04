@@ -1,4 +1,4 @@
-# COMP 22XX Programming Paradigms - Systems Programming in C
+# COMP 2221 Programming Paradigms - Systems Programming in C
 
 ## Lecture 2
 
