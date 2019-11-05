@@ -50,3 +50,15 @@ P2P Might have a central server to deal with some requests but may rely on P2P c
 ### ILC
 
 Multi-socket TCP gives the advantage of having easier parallel multiple connection requests - demultiplexing is easier (eg for multiple HTTP requests) when you have multiple sockets. You don't have to deal with the single stream of data, like under UDP, yourself if you use TCP. UDP is still useful for some applications - eg for streaming live data (if you drop a word in an audio livestream, you don't want it retransmitted later - it's just lost, move on) or if you don't want handshaking.
+
+## Lecture 5 - Transport Layer pt. 2
+
+### ILC
+
+"wait for call from above" above = application layer (higher in the protocol stack)
+receiver waits for call from network layer (below)
+these are both on the transport layer
+
+alternating bit protocol - we only alternate between 0 and 1 for packet sequence numbers, largely due to throughput in real-life scenarios. we don't want to deal with more than 2 packets at a time.
+
+

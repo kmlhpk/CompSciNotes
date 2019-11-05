@@ -52,6 +52,16 @@ Avoid using pseudorandom numbers to generate keys.
 MAC and DAC are non-examinable terms
 
 ## Lecture 4 - Identification, authentication, authorization.
+lmao catch up on this one 😭
+### ILC
+
+## Lecture 5 - Network and Web Security
 
 ### ILC
+
+Star network topology usually more secure against man in the middle eavesdropping attacks than topologies like Bus
+
+BGP is too trusting and very insecure - fundamental design flaw of the internet
+
+
 
