@@ -52,7 +52,7 @@ A* search never expands a goal node, b/c minimality is criteria for termination
 
 ## Lec 4 - A* Search
 
-If there is a fixed $\epsilon > 0$ such that all step-costs exceed it, and the branhing factor is bounded by $b$, then A* search is **complete**.
+If there is a fixed $\epsilon > 0$ such that all step-costs exceed it, and the branching factor is bounded by $b$, then A* search is **complete**.
 
 ### Proof
 
@@ -64,9 +64,14 @@ Suppose there is a goal-node, but A* search doesn't find it.
 
 - case 1 - the tree is finite and all nodes have ben expanded. Goal node must've been on the fringe at some point, and it would;ve had minimal $f$ value, so it would;ve had an expansion attempt - this contradicts th case
 
+### ILC
 
+## Lecture 5 - Heuristic Derivation
 
-
+## Lecture 6 - Local Search
 
 ### ILC
 
+Bad formulation of clique problem - transition function would only stay within one joint graph, but if your G was a disjoint union and you start in one blob, the largest clique might live in the other blob and you'd never find it.
+
+Improved by empty cliques - $\empty$ is a legitimate clique and would allow you to move between the two parts of a disjoint graph

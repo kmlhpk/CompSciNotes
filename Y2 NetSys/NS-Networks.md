@@ -62,3 +62,11 @@ these are both on the transport layer
 alternating bit protocol - we only alternate between 0 and 1 for packet sequence numbers, largely due to throughput in real-life scenarios. we don't want to deal with more than 2 packets at a time.
 
 
+## Lecture 6 - ????
+
+### ILC
+
+for large networks like internet, their topologies are constantly changing 
+
+go back to fair and efficient routing in Encore
+

@@ -1,7 +1,5 @@
-# COMP2221 Programming paradigms - FUnctional PRogramming
+# COMP2221 Programming paradigms - Functional Programming
 
+Lmao
 
-## Lecture 2
-
-### In-lecture comments
 
