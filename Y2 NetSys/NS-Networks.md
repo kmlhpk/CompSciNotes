@@ -70,3 +70,11 @@ for large networks like internet, their topologies are constantly changing
 
 go back to fair and efficient routing in Encore
 
+## Lecture 7 - ???? pt2
+
+Binary countdown - the higher your station address, the more likely you are to win. Station 1111 could win every time if it wanted to send data all the time.
+
+## Lecture 8 - Data Link Layer
+
+Link layer takes packets from the network layer and packages them into frames for the physical layer (and vice versa)
+

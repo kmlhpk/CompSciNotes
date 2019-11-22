@@ -44,3 +44,5 @@ The join, G1 x G2, of G1 and G2 is G1 + G2 but all the vertices of G1 and G2 are
 
 ### ILC
 
+## Lecture 7 - DynProg 3 
+

@@ -75,3 +75,6 @@ Suppose there is a goal-node, but A* search doesn't find it.
 Bad formulation of clique problem - transition function would only stay within one joint graph, but if your G was a disjoint union and you start in one blob, the largest clique might live in the other blob and you'd never find it.
 
 Improved by empty cliques - $\empty$ is a legitimate clique and would allow you to move between the two parts of a disjoint graph
+
+## Lecture 7 - CSP
+
