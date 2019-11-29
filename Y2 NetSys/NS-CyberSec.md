@@ -65,3 +65,4 @@ BGP is too trusting and very insecure - fundamental design flaw of the internet
 
 
 
+## Lec 8 - 

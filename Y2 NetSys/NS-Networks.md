@@ -78,3 +78,8 @@ Binary countdown - the higher your station address, the more likely you are to w
 
 Link layer takes packets from the network layer and packages them into frames for the physical layer (and vice versa)
 
+## Lecture 9 - Wireless MACs
+
+### Assignment
+
+

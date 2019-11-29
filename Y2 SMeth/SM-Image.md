@@ -4,3 +4,5 @@
 
 ### In-lecture comments
 
+## Lecture 7
+

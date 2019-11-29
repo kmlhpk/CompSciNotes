@@ -78,3 +78,12 @@ Improved by empty cliques - $\empty$ is a legitimate clique and would allow you 
 
 ## Lecture 7 - CSP
 
+## Lec 8: Knowledge-based Agents
+
+time parameter allows us to deal with facts or environments tha change over time = eg t is raining, t+1 it's no longer raining.
+
+uniformly at random = each room has equal p of being chosen
+
+soundness and completeness important for WW - any Q the agent can ask in prop logic, it should get an answer to. they don't lie, and they always give an answer.
+
+there is a diff between sequent and double sequent
