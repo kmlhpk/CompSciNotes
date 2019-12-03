@@ -82,4 +82,20 @@ Link layer takes packets from the network layer and packages them into frames fo
 
 ### Assignment
 
+## Lecture 10
 
+NRZI - If 1,0 is sent decoder knows that after one timeslot of 1's voltage, another timeslot of that same voltage will be 0 (as it sender voltage changed, but 1's encoding has changed)
+
+Can add balanced encoding on top of some direct currents, etc - balanced is desirable in some applications
+
+Manchester clock signal is double the frequency of the data transmission rate. Continuous transitions, so sender & receiver can always stay in sync. However Manchester needs **twice** that bandwidth.
+
+FDM usually used for wireless, WDM usually for wired (eg optical fibre)
+
+WDM can be used with passive components (no need for power)
+
+Splitter copies signal across multiple cables, filters filter out parts of the spectrum to recover desired channel. Passive components tend to be more reliable and low-maintenance
+
+Guard bands/times become a problem as number of channels increases - this may add up toa non-trivial amount of your range
+
+CDMA advantage - transmission is not split into small/narrow band of channel, rather using whole spectrum, so resistance to noise is increased.
