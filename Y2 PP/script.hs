@@ -34,6 +34,19 @@ f (x:xs) = f ys ++ [x] ++ f zs
         ys = [a | a <- xs, a <= x]
         zs = [b | b <- xs, b > x]
 
+
+
+
+
+
+
+
+
+
+
+
+
+{-
 listToDec :: ([Int],Int) -> Int 
 listToDec (0,_) = 0
 listToDec (_,0) = 0
@@ -47,21 +60,5 @@ decToList (0,_) = []
 decToList (_,0) = []
 decToList (_,1) = []
 decToList (x,b) = decToList ((x `div` b),b) ++ [x `mod` b]
-
 --baseConv
-
-
-
-
-
-
-
-
-
-{-Lecture 4
-
-
-
-
-
 -}

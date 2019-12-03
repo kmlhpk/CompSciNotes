@@ -28,3 +28,10 @@ this doesn't work if you pass values in, eg x,y = 5,6 and doing swap(x,y).
 fix by defining int *a int *b and referring to them as such in the function, and calling swap(&x,&y)
 
 **a is a double pointer, a pointer to a pointer
+
+
+## Lecture 8 - Scope
+
+variables in higher scopes cannot be accessed unless by pointer in lower scopes (ie can't reference glob from function block) when you redefine
+
+functions are automatically external by conventuion, so they don;y need extern when combining two files

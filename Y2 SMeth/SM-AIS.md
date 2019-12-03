@@ -87,3 +87,9 @@ uniformly at random = each room has equal p of being chosen
 soundness and completeness important for WW - any Q the agent can ask in prop logic, it should get an answer to. they don't lie, and they always give an answer.
 
 there is a diff between sequent and double sequent
+
+## Lec 9: Proof systems
+
+Resolution lol
+
+Cheat: magically pulling out clauses to infer. Algorithm would need some way to decide which "states" to move through.

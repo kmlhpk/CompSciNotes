@@ -66,3 +66,11 @@ BGP is too trusting and very insecure - fundamental design flaw of the internet
 
 
 ## Lec 8 - 
+
+## Lec 9 - 
+
+Data oriented programming - as opposed to OOP, you separate the data from the system and think about transforming the data and how this should be done, rather than abstracting into objects and classes etc.
+
+DRAM v SRAM - slow and cheap v fast and expensive (see CSys)
+
+GPUs are not well optimised or secured, at least compared to CPUs
