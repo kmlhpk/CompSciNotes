@@ -27,3 +27,31 @@ Infinite = unending.
 Unbounded = finite, but length neither defined nor bounded.
 
 
+## Week 9 - Kolmogorov Complexity
+
+complexity of binary strings
+
+Def: \<M>, y | represents X if M(y) = x.
+
+K(x) is the length of the smallest representation of X in terms of \<M> and y
+
+K(0^n) = log_2(n) + c
+
+log_2(n) is the length of n encoded in binary; c is a constant representing the size of a machine that prints $ y $ zeroes.
+
+Upper bound of K(x) for any: K(x) $\leq \mid x \mid + c$ 
+
+how many strings of length n are compressible into at least n-c-1 (n-c or better) for any constant c and big enough n?
+
+sum 1 + 2 + ... + 2^n-c-1 = 2^n-c -1  -> pick an n-bit string uniformly at random, the possibility that it is compressible to better than n-c is (2^n-c - 1)/(2^n) apprex equal 1/2^c
+
+
+Given a binary string x and a number l, Is K(x) leq l?
+
+Run all representations up to size l, see if they produce x.
+
+This doesn't work - trying any repreentation means running a TM on an input - you can't tell whether the TM will terminate on an input or not. We can't make a TM that we know will temrinate because the definition just sayds "some turing machines"
+
+This leq l problem is semi-decidable but not decidable.
+
+
