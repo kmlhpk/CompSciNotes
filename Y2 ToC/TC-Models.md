@@ -55,3 +55,4 @@ This doesn't work - trying any repreentation means running a TM on an input - yo
 This leq l problem is semi-decidable but not decidable.
 
 
+## Lecture 11
