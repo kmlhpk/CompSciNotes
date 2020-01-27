@@ -34,4 +34,4 @@ fix by defining int *a int *b and referring to them as such in the function, and
 
 variables in higher scopes cannot be accessed unless by pointer in lower scopes (ie can't reference glob from function block) when you redefine
 
-functions are automatically external by conventuion, so they don;y need extern when combining two files
+functions are automatically external by convention, so they don;y need extern when combining two files
