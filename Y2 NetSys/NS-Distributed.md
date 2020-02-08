@@ -24,3 +24,5 @@ Migration and relocation are logically the same but different in implementation.
 
 ### Middleware Tech and Remote Method Invocation(RMI)
 
+## Lecture 3
+

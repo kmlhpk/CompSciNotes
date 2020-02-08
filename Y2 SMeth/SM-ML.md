@@ -6,6 +6,11 @@ Randomise order of inputs to not overfit the model to a particular order
 
 ## Lecture 2
 
-Gradient descent - wich direction to travel to ininmise loss
+Gradient descent - which direction to travel to mininmise loss
 
-LKearning rate - how big steps to take to try not to overshoot the minimum we're searching for
+Learning rate - how big steps to take to try not to overshoot the minimum we're searching for
+
+## Lecture 3
+
+Training & Test Set Lecture Slides mistake - Train model on Training Set, Evaluate Model on Validation Set (**Not** Test Set), tweak based on validation set performance
+
