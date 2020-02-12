@@ -14,3 +14,5 @@ Superscript + means a non-empty sequence as opposed to Kleene star which could b
 
 Position of **forward** pointer after returning a token defines the next **lexemeBegin** pointer.  
 
+## Lecture 5 - Syntax Analysis
+
