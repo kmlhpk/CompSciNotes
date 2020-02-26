@@ -16,3 +16,20 @@ Position of **forward** pointer after returning a token defines the next **lexem
 
 ## Lecture 5 - Syntax Analysis
 
+## Lecture 6 - Parse Trees and Ambiguity, Top Down Analysis
+
+Recursive descent parsing can parse more grammars (possibly any context-free) than predictive parsing.
+
+## Lecture 7 - L6 Cont'd
+
+Inner loop removes $A_i$ -> $A_j \gamma$ with $j < i$
+
+You can order your terminals in such a way that this does not even need to happen
+
+eg with EFT arithmetic grammar, if you say E = 1, T=2, F=3, that eliminates need for inner loop
+
+Outer loop ends with elimination of all immediate left recursions 
+
+eg E -> E+T | T goes to:
+- E -> TE'
+- E' -> +TE' | $\epsilon$
