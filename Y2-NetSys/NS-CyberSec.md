@@ -45,29 +45,11 @@ Key-space and cipher-space
 
 Avoid using pseudorandom numbers to generate keys.
 
-## Lecture 3 - OS Security and Access Control
-
-### In-lecture comments
-
-MAC and DAC are non-examinable terms
-
-## Lecture 4 - Identification, authentication, authorization.
-lmao catch up on this one 😭
-### ILC
-
 ## Lecture 5 - Network and Web Security
 
-### ILC
+BGP is too trusting and very insecure - fundamental design flaw of the internet.
 
-Star network topology usually more secure against man in the middle eavesdropping attacks than topologies like Bus
-
-BGP is too trusting and very insecure - fundamental design flaw of the internet
-
-
-
-## Lec 8 - 
-
-## Lec 9 - 
+## Lecture 9
 
 Data oriented programming - as opposed to OOP, you separate the data from the system and think about transforming the data and how this should be done, rather than abstracting into objects and classes etc.
 

@@ -26,11 +26,7 @@ Global search finds a path from an initial state to a goal state via state trans
 
 In local search, we do away with the notion of actions that initiate transitions, and we no longer have step costs associated with transitions. Instead, each state has an objective cost associated with it. The solution to a local search problem is the state with the largest/smallest objective cost, as required, that is reachable from the initial state.
 
-### Example: 8-Puzzle Problem
-
 ## Lecture 2 - Uninformed Search
-
-### In-lecture comments
 
 If you try to expand a node and find there are no transitions/children, you can delete it from memory (it won't help you find the goal state or the path to it). Otherwise we must store all of the search tree in BFS.
 
@@ -46,8 +42,6 @@ DFS is complete when the tree is finite.
 
 ## Lecture 3 - Heuristic Search
 
-### ILC
-
 A* search never expands a goal node, b/c minimality is criteria for termination
 
 ## Lec 4 - A* Search
@@ -62,21 +56,13 @@ Suppose there is a goal-node, but A* search doesn't find it.
 - it does not terminate but it found the goal-node, or
 - it does not terminate whatsoever
 
-- case 1 - the tree is finite and all nodes have ben expanded. Goal node must've been on the fringe at some point, and it would;ve had minimal $f$ value, so it would;ve had an expansion attempt - this contradicts th case
-
-### ILC
-
-## Lecture 5 - Heuristic Derivation
+- case 1 - the tree is finite and all nodes have ben expanded. Goal node must've been on the fringe at some point, and it would;ve had minimal $f$ value, so it would've had an expansion attempt - this contradicts the case
 
 ## Lecture 6 - Local Search
-
-### ILC
 
 Bad formulation of clique problem - transition function would only stay within one joint graph, but if your G was a disjoint union and you start in one blob, the largest clique might live in the other blob and you'd never find it.
 
 Improved by empty cliques - $\empty$ is a legitimate clique and would allow you to move between the two parts of a disjoint graph
-
-## Lecture 7 - CSP
 
 ## Lec 8: Knowledge-based Agents
 
@@ -89,7 +75,5 @@ soundness and completeness important for WW - any Q the agent can ask in prop lo
 there is a diff between sequent and double sequent
 
 ## Lec 9: Proof systems
-
-Resolution lol
 
 Cheat: magically pulling out clauses to infer. Algorithm would need some way to decide which "states" to move through.

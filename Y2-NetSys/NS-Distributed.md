@@ -18,11 +18,6 @@ You don't necessarily need high computing power in one component - you can have 
 
 The "functions" your program uses may be developed by different entities and hosted on different, spatially discrete hardware. They need to be woven together seamlessly to appear.
 
-"Transparency" in DistSys means to what extent the separation of components and entities in the system is visible to the end user. A transparency is some aspect of the system that is hidden from the user (programmer, system dev, user or application program). Not all basic transparencies can or should always be implemented together, and not all of them are available on the layer of the interface. Each transparency 
+"Transparency" in DistSys means to what extent the separation of components and entities in the system is visible to the end user. A transparency is some aspect of the system that is hidden from the user (programmer, system dev, user or application program). Not all basic transparencies can or should always be implemented together, and not all of them are available on the layer of the interface.
 
-Migration and relocation are logically the same but different in implementation. Caching (reloc) is more general. Migration is done more by the service provider, whereas caching is more local. (**Read up on this**)
-
-### Middleware Tech and Remote Method Invocation(RMI)
-
-## Lecture 3
-
+Migration and relocation are logically the same but different in implementation. Caching (reloc) is more general. Migration is done more by the service provider, whereas caching is more local.

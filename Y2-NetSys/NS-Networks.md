@@ -26,10 +26,6 @@ d_trans: cars being serviced by toll booth, d_prop: cars speeding down the road 
 
 Some routers may not provide a response for `traceroute` but that may not be a strict packet loss or network issue - some routers just block responses. Look whether you reach the destination in the end.
 
-
-
-
-
 ## Practical 1
 
 **Q1:** *NB:* Often we make no distinction between "host" and "end system" within terminology.
@@ -40,20 +36,13 @@ If you're being pedantic you could say hosts are any computing devices that are 
 
 ## Lecture 3
 
-### ILC
-
-P2P Might have a central server to deal with some requests but may rely on P2P connections for most of the connectivity - eg Skype
-
+P2P might have a central server to deal with some requests but may rely on P2P connections for most of the connectivity - eg Skype.
 
 ## Lecture 4 - Transport Layer pt. 1
-
-### ILC
 
 Multi-socket TCP gives the advantage of having easier parallel multiple connection requests - demultiplexing is easier (eg for multiple HTTP requests) when you have multiple sockets. You don't have to deal with the single stream of data, like under UDP, yourself if you use TCP. UDP is still useful for some applications - eg for streaming live data (if you drop a word in an audio livestream, you don't want it retransmitted later - it's just lost, move on) or if you don't want handshaking.
 
 ## Lecture 5 - Transport Layer pt. 2
-
-### ILC
 
 "wait for call from above" above = application layer (higher in the protocol stack)
 receiver waits for call from network layer (below)
@@ -61,26 +50,17 @@ these are both on the transport layer
 
 alternating bit protocol - we only alternate between 0 and 1 for packet sequence numbers, largely due to throughput in real-life scenarios. we don't want to deal with more than 2 packets at a time.
 
-
-## Lecture 6 - ????
-
-### ILC
+## Lecture 6
 
 for large networks like internet, their topologies are constantly changing 
 
-go back to fair and efficient routing in Encore
-
-## Lecture 7 - ???? pt2
+## Lecture 7
 
 Binary countdown - the higher your station address, the more likely you are to win. Station 1111 could win every time if it wanted to send data all the time.
 
 ## Lecture 8 - Data Link Layer
 
 Link layer takes packets from the network layer and packages them into frames for the physical layer (and vice versa)
-
-## Lecture 9 - Wireless MACs
-
-### Assignment
 
 ## Lecture 10
 
