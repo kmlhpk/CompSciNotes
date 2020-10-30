@@ -16,3 +16,15 @@ DEFLATE: Do struc then stat, because if you were to work on text, "characters" (
 
 # L5
 
+# L6
+
+# L7
+
+# L8
+
+
+
+# L9
+
+🎵 Let's all meet up in JPEG 2000
+won't it be strange when we're all fully groooo-ooown 🎵
