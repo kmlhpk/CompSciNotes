@@ -10,7 +10,7 @@ Subdivision location doesn't matter, so long as you keep it proportional to the 
 
 # L3
 
-DEFLATE: Do struc then stat, because if you were to work on text, "characters" (words) have fixed length - easy to match patterns. If you do Huffman first, you'd get a seq of bits, with codewords of diff length - LZ matching would be much more difficult.
+DEFLATE: Do structural then statistical compression, because if you were to work on text, "characters" (words) have fixed length - easy to match patterns. If you do Huffman first, you'd get a seq of bits, with codewords of diff length - LZ matching would be much more difficult.
 
 # L4 
 
@@ -22,9 +22,11 @@ DEFLATE: Do struc then stat, because if you were to work on text, "characters" (
 
 # L8
 
-
-
 # L9
 
 🎵 Let's all meet up in JPEG 2000
 won't it be strange when we're all fully groooo-ooown 🎵
+
+# L10 
+
+Video Compression. Interesting stuff, could review later.

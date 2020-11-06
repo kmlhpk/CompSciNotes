@@ -4,3 +4,8 @@ Integer Factorisation is in NP and coNP, and would only be NP-Complete if NP = c
 
 # L4
 
+Space Complexity
+
+# L5 
+
+NSPACE, L, NL

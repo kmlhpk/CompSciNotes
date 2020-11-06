@@ -54,3 +54,12 @@ Each element has a probability 1/2 to be "duplicated" into a second array, and a
 E(length of shortcut list) = $n/2$
 E(amount of nodes examined in the second phase without a skip duplicate) = $3$
 
+# L9
+
+Treaps - review this content carefully, it's not hard but you weren't paying attention
+
+# L10
+
+Treaps cont'd
+
+PRAM, review of different read/write concurrency permutations.

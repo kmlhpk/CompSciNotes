@@ -17,7 +17,14 @@ Base case of two columns returns the alignment of two columns, then as it traver
 
 # L3
 
-???
+Go back and review - this stuff was difficult.
 
 # L4
 
+Probabilistic methods (BLAST/FASTA)
+
+# L5
+
+A graph is strongly connected iff all the nodes are recurrent.
+
+Any time-step you revisit state $s$ has to be divisible by the period, but not every multiple of the period is a time-step you can revisit the state.
