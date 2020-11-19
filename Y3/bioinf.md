@@ -28,3 +28,7 @@ Probabilistic methods (BLAST/FASTA)
 A graph is strongly connected iff all the nodes are recurrent.
 
 Any time-step you revisit state $s$ has to be divisible by the period, but not every multiple of the period is a time-step you can revisit the state.
+
+# L6
+
+In making markov chain models with ATGC, hidden or not, we make the assumption that each pair is independent - that is, that the probability of any symbol occurring is dependent only on the previous symbol. This is not necessarily the case, as they could be dependent on any number of previous symbols, or on something else. Hidden Markov Models eliminate this assumption - they are all abstract states, which could represent any combination of symbols.

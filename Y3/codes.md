@@ -30,3 +30,6 @@ won't it be strange when we're all fully groooo-ooown 🎵
 # L10 
 
 Video Compression. Interesting stuff, could review later.
+
+# L11 
+

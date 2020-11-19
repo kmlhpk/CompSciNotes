@@ -63,3 +63,11 @@ Treaps - review this content carefully, it's not hard but you weren't paying att
 Treaps cont'd
 
 PRAM, review of different read/write concurrency permutations.
+
+# L11
+
+We don't have to worry about synchronisation - we can assume it's all in sync. ie. move one level up only when current level is fully populated.
+
+# L12
+
+Prefix sums - big example lecture, good for revision
